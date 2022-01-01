@@ -1,0 +1,25 @@
+{
+  "name": "readme-maker",
+  "version": "1.0.0",
+  "description": "This application will help create a read me from user input",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bmorrissey34/README-Maker.git"
+  },
+  "keywords": [
+    "readme"
+  ],
+  "author": "Brendan Morrissey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bmorrissey34/README-Maker/issues"
+  },
+  "homepage": "https://github.com/Bmorrissey34/README-Maker#readme",
+  "dependencies": {
+    "inquirer": "^8.2.0"
+  }
+}
