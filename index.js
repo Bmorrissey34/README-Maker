@@ -5,36 +5,44 @@ inquirer
     .prompt([
         {
             type: 'input',
-            message: 'What your project name?',
+            message: 'What is the name of your project?',
             name: 'projectName'
         },
         {
             type: 'input',
-            message: 'Why did you create this project, what problem does it solve?',
-            name: 'description'
+            message: 'Describe your project.',
+            name: 'description',
         },
         {
             type: 'input',
-            message: 'What is the live url to your project?',
-            name: 'liveURL'
+            message: 'Installation instructions for your project.',
+            name: 'installation'
+        },
+        {
+            type: 'input',
+            message: 'Provide any usage information.',
+            name: 'usage'
+        },
+        {
+            type: 'input',
+            message: 'Provide any contributors',
+            name: 'collaborators'
+        },
+        {
+            type: 'input',
+            message: 'Provide any tests instructions.',
+            name: 'tests'
+        },
+        {
+            type: 'input',
+            message: 'Provide github username.',
+            name: 'username'
         },
         {
             type: 'input',
             message: 'What is the link to your repo?',
-            name: 'repo',
+            name: 'email'
         },
-        {
-            type: 'input',
-            message: 'If not a live link how do you install your project and/or how does your project function?',
-            name: 'installation'
-        },
-        
-        {
-            type: 'input',
-            message: 'Did you have any collaborators?',
-            name: 'collaborators'
-        }
-        
     ])
 
     .then((answers) => {
@@ -45,7 +53,7 @@ inquirer
         );
       });
 
-    const readMeStruct = ({projectName, description, liveURL, collaborators, repo, installation}) => 
+    const readMeStruct = ({projectName, description, usage, collaborators, tests, repo, installation, username, }) => 
 `# ${projectName}
 
 ## Description
@@ -55,8 +63,14 @@ inquirer
     ${installation}
 
 ## Usage
-    GitHub Repo : ${repo}
-    Live Url : ${liveURL}
+    ${usage}
+
+## My Info
+    GitHub Username: ${username}
+    Github Repo : ${repo}
+
+## Tests
+      ${tests}
 
 ## Credits
     ${collaborators}`

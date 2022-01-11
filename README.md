@@ -1,14 +1,20 @@
-# README Maker
+# README MAKER
 
 ## Description
-    To help to make professional readme files in a quick and easy way
+    I created an app that will take in user input through node.js and inquirer, then it will take that input and create a read me file
 
 ## Installation
-    First you need to pull the file, cd into the correct folder, and run npm i. After completing this you should run node index.js in your command line to initialize the app. Once started you can just answer the prompts and BAM, like magic.
+    NPM I - run node index.js in terminal
 
 ## Usage
-    GitHub Repo : https://github.com/Bmorrissey34/README-Maker
-    Live Url : N/A
+    Answer Prompts
+
+## My Info
+    GitHub Username: Bmorrissey34
+    Github Repo : undefined
+
+## Tests
+      
 
 ## Credits
-    N/A
+    
