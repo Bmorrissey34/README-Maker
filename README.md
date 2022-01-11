@@ -8,7 +8,9 @@
 
 ## Usage
     -Answer Prompts
-    -Video:  https://watch.screencastify.com/v/9BL5xk0cH2dbhA0CNwsd
+
+https://user-images.githubusercontent.com/88950762/148862620-9ddd4eb7-db4c-4401-8515-b1033b7cf286.mp4
+
 
 ## My Info
     GitHub Username: Bmorrissey34
