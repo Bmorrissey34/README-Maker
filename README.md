@@ -7,14 +7,15 @@
     NPM I - run node index.js in terminal
 
 ## Usage
-    Answer Prompts
+    -Answer Prompts
+    -Video:  https://watch.screencastify.com/v/9BL5xk0cH2dbhA0CNwsd
 
 ## My Info
     GitHub Username: Bmorrissey34
-    Github Repo : undefined
+    Github Repo : https://github.com/Bmorrissey34/README-Maker
 
 ## Tests
-      
+      N/A
 
 ## Credits
-    
+      N/A
