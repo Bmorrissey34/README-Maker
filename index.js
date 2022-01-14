@@ -59,6 +59,13 @@ inquirer
 ## Description
     ${description}
 
+## Table of Contents
+    - Installation (#Installation)
+    - Usage (#Usage)
+    - My Info (#my-info)
+    - Tests (#Tests)
+    - Credits (#Credits)
+
 ## Installation
     ${installation}
 
