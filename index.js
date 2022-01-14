@@ -120,7 +120,7 @@ ${renderLicenseBadge(license)}
     ${usage}
 
 ## My Info
-    GitHub Username: ${username}
+    GitHub Username: https://github.com/${username}
     Github Repo : ${repo}
 
 ## Tests
