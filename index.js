@@ -101,7 +101,7 @@ const readMeStruct = ({
 ${renderLicenseBadge(license)}
 
 ## Description
-    ${description}
+${description}
 
 ## Table of Contents
 
@@ -114,14 +114,14 @@ ${renderLicenseBadge(license)}
 
 
 ## Installation
-    ${installation}
+${installation}
 
 ## Usage
-    ${usage}
+${usage}
 
 ## My Info
-    GitHub Username: https://github.com/${username}
-    Github Repo : ${repo}
+GitHub Username: https://github.com/${username}
+Github Repo : ${repo}
 
 ## Tests
       ${tests}
